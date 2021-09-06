@@ -77,4 +77,4 @@ function pigIt(str){
 - English \- Intermediate 
 - Russian \- Native
 - Ukrainian \- Intermediate
-......
+********

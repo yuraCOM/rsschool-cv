@@ -7,10 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/reset.css">
     <link rel="stylesheet" href="style/style.css">
+    <link href="style/rainbow.css" rel="stylesheet" type="text/css">
     <title>CV Yuryi Akhtyrskyi</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
@@ -142,24 +145,24 @@
                 Example pigIt('Pig latin is cool'); // igPay atinlay siay oolcay
                 The returned format must be correct in order to complete this challenge.
                 Don’t forget the space after the closing parentheses!</p>
-          <pre>
+          <pre><code data-language="javascript">
                 function pigIt(str){
                   let strNew = []
                   str = str.split(' ')
                   str.forEach( item =>{
-                    if (item.match( (/[^A-Za-z0-9\s]/g) )){
+                    if (item.match( (/[^A-Za-z0-9\s]/g))){
                       strNew.push(item)
                         }
                         else {
-                            strNew.push(item.slice(1) + item.slice(0,1)+'ay')
+                            strNew.push(item.slice(1)
+                                + item.slice(0,1)+'ay')
                         }
                     })
                     return strNew.join(' ')
                 }
-            </pre>
+            </code></pre>
         </div>
       </section>
-      <hr>
     </div>
   </main>
 
@@ -180,5 +183,8 @@
       </ul>
     </div>
   </footer>
+  <script src="script.js"></script>
+  <script src="script/rainbow-custom.min.js"></script>
+  <script src="script/javascript.js"></script>
   </body>
 </html>

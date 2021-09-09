@@ -390,3 +390,15 @@ pre {
   }
 
 }
+
+
+
+@media (min-width: 1024px) {
+
+  .header-container h1{
+    font-size: 20px;
+  }
+  .header-container h2{
+    font-size: 18px;
+  }
+}

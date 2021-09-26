@@ -77,7 +77,7 @@ header{
 }
 
 .header-container nav{
-    max-width: 720px;
+    /*max-width: 720px;*/
 }
 
 .logo{
@@ -921,7 +921,14 @@ input:checked + .style-radio:before {
     background-image: url("assets/img/006.jpg");
 }
 .parallax3 {
-    background-image: url("assets/img/Louvre.jpg");
+    /*background-image: url("assets/img/Louvre.jpg") no-repeat;*/
+    background: center url("assets/img/Louvre.jpg") no-repeat;
+    width: 100%;
+    /*background: center url(assets/img/parallax.jpg) no-repeat;*/
+    height: 400px;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 
 

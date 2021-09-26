@@ -1,0 +1,1 @@
+assets-info.txt - add assets files

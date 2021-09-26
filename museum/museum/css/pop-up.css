@@ -88,7 +88,7 @@
     padding-left: 40px;
     font-size: 18px;
     line-height: 21px;
-    background: url("../assets/img/time.png") no-repeat 15px 14px, url('../assets/img/arrow-select.png') no-repeat 153px 13px;
+    background: url("../assets/img/Time.png") no-repeat 15px 14px, url('../assets/img/arrow-select.png') no-repeat 153px 13px;
 }
 
 /* input date #pop-date placeholder меняю шрифт и управялю им  */

@@ -1,1 +1,4 @@
-https://yuraCOM.github.io/rsschool-cv/
+
+https://yuraCOM.github.io/rsschool-cv/museim
+
+

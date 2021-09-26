@@ -1,4 +1,4 @@
 
-https://yuraCOM.github.io/rsschool-cv/museum/museum/
+https://yuraCOM.github.io/rsschool-cv/museum/museum
 
 

@@ -82,6 +82,7 @@ header{
 
 .logo{
     display: flex;
+    align-items: flex-start;
     filter: brightness(60%);
     cursor: pointer;
 }
@@ -94,7 +95,8 @@ header{
 .logo p{
     text-transform: uppercase;
     font-size: var(--fsize28);
-    line-height: 50px;
+    line-height: 31px;
+    letter-spacing: 5px;
     color: white;
     padding-left: 20px;
 }
@@ -111,10 +113,10 @@ header{
 
 .header-container li{
     font-size: var(--fsize22);
-    line-height: 50px;
+    /*line-height: 50px;*/
     color: #FFFFFF;
     list-style: none;
-    padding-right: 76px;
+    padding-right: 57px;
 
 }
 .header-container li:last-child{
@@ -139,6 +141,7 @@ header{
 .section-title-dark{
     font-size: var(--fsize80);
     line-height: 90px;
+    letter-spacing: 5px;
     color: #FFFFFF;
     /*text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);*/
 }
@@ -152,7 +155,7 @@ header{
 .underline-title::after {
     content: "";
     position: absolute;
-    bottom: -25px;
+    bottom: -26px;
     left: 0;
     right: 0;
     height: 3px;
@@ -178,13 +181,14 @@ header{
     z-index: 999;
     flex: none;
     position: absolute;
-    padding-top: 180px;
+    padding-top: 150px;
     left: 0;
 }
 
 .section-welcome a{
     background-color: #710707;
     border: 1px solid #333; /* Рамка */
+    border-radius: 10px;
     display: inline-block;
     padding: 23px 65px; /* Поля */
     text-decoration: none; /* Убираем подчёркивание */
@@ -205,6 +209,7 @@ header{
 
 .flex-wrapper{
     position: relative;
+    width: 1000px;
 
 }
 .slider-wrapper img{
@@ -311,13 +316,13 @@ to{
 .slider-bar-wrapper{
     width: 600px;
     position: absolute;
-    bottom: 0;
+    bottom: 2px;
     left: 400px;
     background-color: #000000;
 
 }
 .slider-bar-wrapper p{
-    padding: 0 10px 0 0;
+    padding: 0 8px 0 0;
     font-size: var(--fsize22);
     font-weight: normal;
     font-style: normal;
@@ -331,20 +336,20 @@ to{
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding: 40px 0;
+    padding: 42px 0;
 }
 
 .slider-count{
     display: flex;
-    padding-left: 74px;
+    padding-left: 70px;
 
 }
 .dot-wrapper{
-    padding-left: 55px;
+    padding-left: 52px;
 }
 .slider-arrow{
     display: flex;
-    padding-left: 60px;
+    padding-left: 36px;
 
 }
 .btn-left, .btn-right, .dot {
@@ -356,14 +361,14 @@ to{
 }
 
 .dot {
-    width: 12px;
-    height: 12px;
+    width: 16px;
+    height: 16px;
     background-color: #FFFFFF;
     margin: 0 25px 0 0;
 }
 
 .btn-left{
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 .btn-left:hover, .btn-right:hover{
@@ -378,7 +383,7 @@ to{
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
-    gap: 60px;
+    gap: 75px 60px;
     margin-top: 100px;
 }
 .vr-card{
@@ -397,7 +402,7 @@ to{
 }
 
 .vr-card img{
-    padding-bottom: 25px;
+    padding-bottom: 22px;
 }
 .vr-card a{
     display: block;
@@ -407,6 +412,7 @@ to{
     position: relative;
     font-size: 32px;
     line-height: 35px;
+    letter-spacing: 5px;
 }
 /*.vr-card h3:after {*/
 /*    content: "";*/
@@ -419,6 +425,7 @@ to{
 /*}*/
 
 .vr .line{
+    margin-top: 9px;
     width: 300px;
     height: 2px;
     background-color: rgba(113, 7, 7, 1);
@@ -427,6 +434,7 @@ to{
 .vr-card h4{
     font-family: Roboto, sans-serif;
     font-style: normal;
+    letter-spacing: 0px;
     font-weight: 200;
     font-size: 22px;
     line-height: 26px;
@@ -436,7 +444,8 @@ to{
     font-weight: 200;
     font-size: 18px;
     line-height: 21px;
-    padding-top: 10px;
+    letter-spacing: 0px;
+    padding-top: 11px;
 }
 
 .section-explore .container{
@@ -453,10 +462,10 @@ to{
 }
 
 .section-explore h2{
-    margin-bottom: 103px;
+    margin-bottom: 80px;
 }
 .section-explore p{
-    /*font-weight: lighter;*/
+    font-weight: 200;
     font-size: 22px;
     line-height: 38px;
     color: #FFFFFF;
@@ -532,11 +541,11 @@ to{
     align-items: center;
     justify-content: space-around;
     background-color: #030303;
-    padding: 28px 0 27px 41px;
+    padding: 24px 0 27px 14px;
 }
 
 .video-control img, .video-control input{
-    margin-right: 41px;
+    margin-right: 13px;
 
 }
 .video-control img:hover, .video-control input:hover{
@@ -547,10 +556,10 @@ to{
 /*    margin-right: 41px;*/
 /*}*/
 .video-control .volume{
-    margin-right: 20px;
+    margin-right: 4px;
 }
 .video-control .volume-range{
-    margin-right: 48px;
+    margin-right: 18px;
 }
 
 .rewind-video {
@@ -619,7 +628,7 @@ to{
 .video-playlist-wrapper{
     position: relative;
     overflow: hidden;
-    padding-top: 40px;
+    padding-top: 38px;
 
 }
 .play-list-slider{
@@ -728,11 +737,11 @@ to{
     justify-content: space-between;
 }
 .ticket-buy img{
-    margin-right: 65px;
+    margin-right: 56px;
 }
 
 .ticket-buy .ticket-type{
-    margin-right: 215px;
+    margin-right: 244px;
 }
 
 .ticket-type{
@@ -741,10 +750,17 @@ to{
     flex-wrap: nowrap;
 }
 .ticket-buy h4{
-    font-weight: var(--fweight700);
-    font-size: var(--fsize28);
     line-height: 33px;
-    margin-bottom: 25px;
+    margin-bottom: 49px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 1.65px;
+}
+.amount h4{
+    margin-bottom: 20px;
+
 }
 
 .ticket-type label{
@@ -752,7 +768,7 @@ to{
     font-size: 22px;
     line-height: 26px;
     display: block;
-    margin-bottom: 34px;
+    margin-bottom: 26px;
 }
 
 /* = скрываем input */
@@ -769,7 +785,7 @@ to{
     position: relative;
     vertical-align: middle;
     box-sizing: border-box;
-    margin-right: 28px;
+    margin-right: 10px;
     border-radius: 300px;
     background-color:#ffffff;
 }
@@ -813,9 +829,12 @@ input:checked + .style-radio:before {
     align-items: flex-end;
 }
 .amount p{
+    margin-top: 6px;
     margin-bottom: 15px;
     /*align-self: flex-start;*/
     font-weight: var(--fweight300);
+    font-size: 22px;
+    line-height: 26px;
 }
 .amount button{
     cursor: pointer;
@@ -849,6 +868,8 @@ input:checked + .style-radio:before {
     font-weight: normal;
     font-size: 32px;
     line-height: 37px;
+    padding: 3px 0;
+
 }
 .basic input, .senior input {
     font-size: 22px;
@@ -878,7 +899,7 @@ input:checked + .style-radio:before {
 .amount .buy-now{
     width: 175px;
     height: 50px;
-    margin-top: 35px;
+    margin-top: 42px;
     font-weight: var(--fweight300);
     font-size: var(--fsize22);
     color: #ffffff;
@@ -972,15 +993,22 @@ footer .container{
     flex-wrap: nowrap;
     align-content: space-around;
     align-items: flex-start;
-    padding-top: 75px;
+    padding-top: 86px;
 }
 
 footer .logo{
-    margin-right: 145px;
+    margin-right: 140px;
+}
+footer .logo p{
+    font-family: Forum;
+    padding-left: 26px;
+
 }
 
+
 footer .footer-nav{
-    margin-right: 153px;
+    padding-top: 4px;
+    margin-right: 116px;
 }
 
 .footer-nav ul{
@@ -989,19 +1017,28 @@ footer .footer-nav{
     justify-content: flex-start;
     align-items: baseline;
     font-size: var(--fsize22);
-    line-height: 50px;
     letter-spacing: 2px;
-}
 
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 26px;
+    /* identical to box height */
+
+}
+.footer-nav li{
+    padding-bottom: 25px;
+}
 .social{
     display: flex;
     flex-direction: row;
     align-self: flex-end;
-    margin-left: 129px;
+    margin-left: 247px;
+    margin-bottom: 24px;
 }
 
 .social a{
-    margin-right: 24px;
+    margin-right: 25px;
 }
 
 .social img:hover{
@@ -1024,8 +1061,12 @@ footer .footer-nav{
     color: white;
     font-weight: 200;
     font-size: var(--fsize22);
-    line-height: 22px;
+    line-height: 26px;
     letter-spacing: 2px;
+}
+.footer-rss {
+    margin-left: 111px;
+
 }
 
 .rsschool a:hover{

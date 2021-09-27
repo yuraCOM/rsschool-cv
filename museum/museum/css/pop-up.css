@@ -23,6 +23,7 @@
     max-width: 1440px;
     width: 100%;
     margin: 0 auto;
+    overflow: auto;
     /*position: relative;*/
 }
 
@@ -42,7 +43,7 @@
 }
 
 .pop-container form{
-    padding: 91px 190px;
+    padding: 90px 235px;
 }
 
 .pop-reg{
@@ -52,7 +53,7 @@
     bottom: -10px
 }
 .pop-date-time{
-    padding-top: 73px;
+    padding-top: 72px;
 }
 .pop-date-time input, .pop-contact input, .pop-contact select {
     height: 45px;
@@ -133,7 +134,7 @@
 .pop-contact select {
     appearance: none; /*спрятали стрелку селект*/
     background-image: url('../assets/img/ticket.png'), url('../assets/img/arrow-select.png');
-    background-position: 15px 15px , 350px 14px;
+    background-position: 15px 15px , 367px 12px;
     background-repeat: no-repeat, no-repeat;
 }
 
@@ -142,7 +143,7 @@ div.pop-reg-header h2{
     font-size: var(--fsize50);
     line-height: 55px;
     letter-spacing: 0;
-    margin-bottom: 15px;
+    margin-bottom: 13px;
 }
 
 div.pop-reg-header p{
@@ -167,14 +168,14 @@ div.pop-reg-header p{
 .entry-ticket{
     border: 1px solid var(--bg-dark);
     box-shadow: 1px 1px 1px #030303;
-    padding: 10px 15px 15px;
+    padding: 9px 15px 9px;
 }
 .entry-ticket h6{
     font-size: var(--fsize18);
     line-height: 20px;
     text-transform: capitalize;
     color: #9D8665;
-    margin-bottom: 25px;
+    margin-bottom: 21px;
     font-weight: var(--fweight400);
     letter-spacing: 0
 }
@@ -186,11 +187,12 @@ div.pop-reg-header p{
     font-weight: var(--fweight400);
     font-size: 18px;
     line-height: 21px;
+    margin: 4px 0;
 }
 
 .entry-ticket .basic, .entry-ticket .senior {
     width: 105px;
-    height: 25px;
+    height: 27px;
     border: 1px solid #030303
 }
 .entry-ticket .basic input, .entry-ticket .senior input {
@@ -218,7 +220,16 @@ div.pop-reg-header p{
 }
 
 .entry-ticket .senior{
-    margin-bottom: 0;
+    margin-bottom: 0px;
+
+}
+.senior-ticket{
+    margin: 5px 0 0 0;
+
+}
+.senior-ticket p{
+    margin-top: 5px;
+
 }
 .pop-over-and-total{
 
@@ -246,7 +257,7 @@ div.pop-reg-header p{
     line-height: 26px;
     color: #740C11;
     opacity: 0.9;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
 }
 .overview-left p{
     background: url("../assets/img/date.png") no-repeat 0 5px;
@@ -264,7 +275,7 @@ div.pop-reg-header p{
     background: url("../assets/img/excebishion.png") no-repeat;
 }
 .pop-total{
-    margin-top: 23px;
+    margin-top: 16px;
 }
 .count-total p{
     font-weight: var(--fweight400);
@@ -277,23 +288,27 @@ div.pop-reg-header p{
     color: #A4A4A3;;
     background-color: black;
     font-size: 18px;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     border-radius: 5px;
-    padding: 0 11px;
+    padding: 0 10px;
 }
 .count-total .underline-title::after{
     bottom: -9px;
 
 }
 .sum-total{
-    margin-top: 20px;
-    margin-bottom: 4px;
+    margin-top: 15px;
+    margin-bottom: 10px;
     font-weight: bold;
     font-size: 32px;
     line-height: 37px;
 }
 .sum-total h3:first-child{
+    font-family: Roboto;
+    font-style: normal;
     font-weight: normal;
+    font-size: 32px;
+    line-height: 37px;
 }
 .pop-card-pay{
     position: relative;
@@ -334,6 +349,7 @@ div.pop-reg-header p{
 .card-one input{
     height: 35px;
     border: 0;
+
 }
 
 .card-one input::-webkit-inner-spin-button {
